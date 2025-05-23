@@ -44,7 +44,6 @@ BASE_STYLE={
         "display":"block",
         "border_radius":f"{Size.DEFAULT}em"
     },
-
     "TITLE": {
         "font_family": Font.TITLE.value,
         "font_size": f"{Size.BIG.value}em",
@@ -67,5 +66,4 @@ BASE_STYLE={
         "writing_mode": "vertical-lr",
         # "text-orientation": "mixed",
     }
-
 }
