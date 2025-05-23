@@ -23,9 +23,7 @@ def header()->rx.Component:
             rx.flex(
                 rx.text(
                     "Where legends rise",
-                    style={
-                        **BASE_STYLE["TITLE"],
-                    }
+                    style=styles.font_title_style,
                 ),
                 align="end",
                 grid_column="1/15",
@@ -36,9 +34,7 @@ def header()->rx.Component:
             rx.flex(
                 rx.text(
                     "Donde los valientes no juegan... compiten y destrozan",
-                    style={
-                        **BASE_STYLE["VERTICAL"]
-                    },
+                    style=styles.font_vertical_style,
                 ),
 
                 align="end",
@@ -64,24 +60,18 @@ def header()->rx.Component:
                 rx.vstack(
                     rx.text(
                         "Entra",
-                        style={
-                            **BASE_STYLE["BODY"],
-                        },
+                        style=styles.font_body_style,
                         # bg="blue"
                     ),
                     rx.text(
                         "DESATA TU ESENCIA",
-                        style={
-                            **BASE_STYLE["BODY"],
-                        },
+                        style=styles.font_body_style,
                         font_size=Size.XBIG.value,
                         # bg="blue"
                     ),
                     rx.text(
                         "Domina sin piedad",
-                        style={
-                            **BASE_STYLE["BODY"],
-                        },
+                        style=styles.font_body_style,
                         # bg="blue"
                     ),
                     justify="center",
@@ -116,10 +106,7 @@ def header()->rx.Component:
             rx.flex(
                 rx.text(
                     "Somos Kódigo, Kaos y Kontrol",
-                    style={
-                        **BASE_STYLE["SUBTITLE"],
-
-                    },
+                    style=styles.font_subtitle_style,
                     font_size=Size.DOUBLE.value,
 
                 ),

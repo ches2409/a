@@ -1,5 +1,6 @@
 import reflex as rx
 
+from arkadex.styles import styles
 from arkadex.views.header import header
 from rxconfig import config
 
@@ -17,5 +18,8 @@ def index() -> rx.Component:
     )
 
 
-app = rx.App()
+app = rx.App(
+    stylesheets=styles.STYLESHEETS,
+    style=styles.BASE_STYLE
+)
 app.add_page(index)

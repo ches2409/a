@@ -17,7 +17,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "Bruno Ace", sans-serif;
+    font-family: "Bruno Ace";
     src: url('/assets/static/fonts/BrunoAce-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;

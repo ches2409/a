@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="fuentes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/arkadex.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/arkadex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/styles/fonts.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/styles/fonts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/styles/styles.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/styles/styles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/views/header.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/static/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +90,7 @@
       <workItem from="1747994558794" duration="699000" />
       <workItem from="1747995279659" duration="1857000" />
       <workItem from="1748014238254" duration="273000" />
-      <workItem from="1748014523973" duration="4256000" />
+      <workItem from="1748014523973" duration="7412000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />

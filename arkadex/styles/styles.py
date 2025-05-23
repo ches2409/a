@@ -14,25 +14,26 @@ STYLESHEETS=[
     "https://fonts.googleapis.com",
     "https://fonts.gstatic.com",
     "https://fonts.googleapis.com/css2?family=Aldrich&family=Bruno+Ace+SC&family=Electrolize&display=swap",
-    "https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap",
-    "https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
+    "https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
     # "/static/styles.css"
 ]
 
 class Size(Enum):
-    ZERO = 0
-    XSMALL = 0.5
-    SMALL = 0.7
-    DEFAULT = 1
-    MEDIUM = 1.5
-    DOUBLE=2
-    LARGE = 3
-    BIG = 4
-    XBIG = 5
-    BUTTON = 2.5
+    ZERO = "0"
+    XSMALL = "0.5em"
+    SMALL = "0.7em"
+    DEFAULT = "1em"
+    MEDIUM = "1.5em"
+    DOUBLE="2em"
+    LARGE = "3em"
+    BIG = "4em"
+    XBIG = "5em"
+    BUTTON = "2.5em"
 
 class Title():
     pass
+
+
 
 BASE_STYLE={
 
@@ -42,28 +43,28 @@ BASE_STYLE={
         "width":"100%",
         "height":"100%",
         "display":"block",
-        "border_radius":f"{Size.DEFAULT}em"
-    },
-    "TITLE": {
-        "font_family": Font.TITLE.value,
-        "font_size": f"{Size.BIG.value}em",
-        "color": TextColor.TITLE.value,
-    },
-    "SUBTITLE":{
-        "font_family": Font.TITLE.value,
-        "font_size":f"{Size.LARGE.value}em",
-        "color": TextColor.TITLE.value,
-    },
-    "BODY":{
-        "font_family": Font.BODY.value,
-        "font_size":f"{Size.XBIG.value}em",
-        "color": TextColor.TERTIARY.value,
-    },
-    "VERTICAL":{
-        "font_family": Font.VERTICAL.value,
-        "font_size":f"{Size.MEDIUM.value}em",
-        "color": TextColor.ACCENT.value,
-        "writing_mode": "vertical-lr",
-        # "text-orientation": "mixed",
+        "border_radius":Size.DEFAULT
     }
 }
+
+font_title_style=dict(
+    font_family=Font.TITLE.value,
+    font_size=Size.BIG.value,
+    color=TextColor.TITLE.value,
+)
+font_subtitle_style=dict(
+    font_family=Font.SUBTITLE.value,
+    font_size=Size.LARGE.value,
+    color=TextColor.TITLE.value,
+)
+font_body_style=dict(
+    font_family=Font.BODY.value,
+    font_size=Size.LARGE.value,
+    color=TextColor.TERTIARY.value,
+)
+font_vertical_style=dict(
+    font_family=Font.VERTICAL.value,
+    font_size=Size.MEDIUM.value,
+    color=TextColor.ACCENT.value,
+    writing_mode= "vertical-lr",
+)
