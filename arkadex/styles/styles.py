@@ -11,10 +11,10 @@ MAX_WIDTH = "100vw"
 MAX_HEIGHT = "100vh"
 
 STYLESHEETS=[
-    "https://fonts.googleapis.com",
-    "https://fonts.gstatic.com",
+    # "https://fonts.gstatic.com",
     "https://fonts.googleapis.com/css2?family=Aldrich&family=Bruno+Ace+SC&family=Electrolize&display=swap",
-    "https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+    "https://fonts.googleapis.com/css2?family=Audiowide&display=swap",
+    "https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
     # "/static/styles.css"
 ]
 
@@ -67,4 +67,14 @@ font_vertical_style=dict(
     font_size=Size.MEDIUM.value,
     color=TextColor.ACCENT.value,
     writing_mode= "vertical-lr",
+)
+font_button_style=dict(
+    font_family=Font.BUTTON.value,
+    font_size=Size.MEDIUM.value,
+    color=TextColor.SECONDARY.value,
+)
+font_accent_style=dict(
+    font_family=Font.DEFAULT.value,
+    font_size=Size.DEFAULT.value,
+    color=TextColor.ACCENT.value,
 )

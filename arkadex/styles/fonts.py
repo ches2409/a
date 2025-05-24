@@ -7,3 +7,4 @@ class Font(Enum):
     SUBTITLE = "Bruno Ace SC"
     BODY = "Aldrich"
     VERTICAL = "Electrolize"
+    BUTTON="Orbitron"
