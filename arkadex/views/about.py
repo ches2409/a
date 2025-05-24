@@ -8,49 +8,53 @@ def about()->rx.Component:
     return rx.grid(
         rx.vstack(
             rx.vstack(
-                rx.text(
-                    "No somos casuales. No vinimos aprobar",
-                ),
-                rx.text(
-                    "Vinimos a escribir nuestro nombre en los codigos del juego.",
-                ),
+
                 rx.vstack(
-                    rx.text(
-                       [
-                           rx.text(
-                               "somos ",
-                               rx.text(
-                                   "KÓDIGO",
-                                   as_="span",
-                                   style=styles.font_accent_style
-                               ),
-                               ": pensamos como estrategas, leemos el meta y creamos el nuestro.",
-                               as_="span",
-
-                           )
-                       ]
-                    ),
-                    rx.text(
-                        "somos ",
+                    rx.vstack(
                         rx.text(
-                            "KAOS",
-                            as_="span",
-                            style=styles.font_accent_style
+                            "No somos casuales. No vinimos aprobar",
                         ),
-                        ": impredecibles, agresivos, imposibles de replicar.",
-                        as_="span",
-
-                    ),
-                    rx.text(
-                        "somos ",
                         rx.text(
-                            "KONTROL",
-                            as_="span",
-                            style=styles.font_accent_style
+                            "Vinimos a escribir nuestro nombre en los codigos del juego.",
                         ),
-                        ": ejecutamos con precisión milimétrica y mentalidad de campeón.",
-                        as_="span",
+                        rx.text(
+                            [
+                                rx.text(
+                                    "somos ",
+                                    rx.text(
+                                        "KÓDIGO",
+                                        as_="span",
+                                        style=styles.font_accent_style
+                                    ),
+                                    ": pensamos como estrategas, leemos el meta y creamos el nuestro.",
+                                    as_="span",
 
+                                )
+                            ]
+                        ),
+                        rx.text(
+                            "somos ",
+                            rx.text(
+                                "KAOS",
+                                as_="span",
+                                style=styles.font_accent_style
+                            ),
+                            ": impredecibles, agresivos, imposibles de replicar.",
+                            as_="span",
+
+                        ),
+                        rx.text(
+                            "somos ",
+                            rx.text(
+                                "KONTROL",
+                                as_="span",
+                                style=styles.font_accent_style
+                            ),
+                            ": ejecutamos con precisión milimétrica y mentalidad de campeón.",
+                            as_="span",
+
+                        ),
+                        margin_left="4rem"
                     ),
                     rx.text(
                         "Somos ArkadeX",
@@ -84,9 +88,15 @@ def about()->rx.Component:
             z_index="99"
         ),
         rx.hstack(
-            rx.button(
-                "i",
-                width="5rem",
+            rx.box(
+                rx.button(
+                    "X",
+                    height="4rem",
+                ),
+                align_content="center",
+                # bg="green",
+                width="4rem",
+                height="100%",
             ),
             rx.flex(
                 rx.text(

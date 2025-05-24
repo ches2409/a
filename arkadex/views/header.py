@@ -48,11 +48,25 @@ def header()->rx.Component:
             rx.grid(
 
                 rx.box(
+                    rx.button(
+                        "a",
+                        height="4rem",
+                    ),
+                    align_content="center",
+                    width="4rem",
+                    height="100%",
                     grid_column="1/3",
                     grid_row="7",
                     # bg="green",
                 ),
                 rx.box(
+                    rx.button(
+                        "b",
+                        height="4rem",
+                    ),
+                    align_content="center",
+                    width="4rem",
+                    height="100%",
                     grid_column="2/4",
                     grid_row="6",
                     #bg="green",
@@ -80,14 +94,28 @@ def header()->rx.Component:
                     # bg="green",
                 ),
                 rx.box(
+                    rx.button(
+                        "1",
+                        height="4rem",
+                    ),
+                    align_content="center",
+                    width="4rem",
+                    height="100%",
                     grid_column="13/15",
                     grid_row="5/7",
 #                     bg="green",
                 ),
                 rx.box(
+                    rx.button(
+                        "2",
+                        height="4rem",
+                    ),
+                    align_content="center",
+                    width="4rem",
+                    height="100%",
                     grid_column="15/17",
                     grid_row="5/7",
-#                   bg="green",
+                  # bg="green",
                 ),
 
                 background_image="url(bag1.png)",

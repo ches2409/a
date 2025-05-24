@@ -42,8 +42,8 @@ BASE_STYLE={
     rx.button:{
         "width":"100%",
         "height":"100%",
-        "display":"block",
-        "border_radius":Size.DEFAULT
+        "border_radius":"50%",
+        "background":f"linear-gradient(25deg,{Color.BUTTON.value} 50%,  {Color.SECONDARY.value} 100%)",
     }
 }
 
