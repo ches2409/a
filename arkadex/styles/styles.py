@@ -43,7 +43,7 @@ BASE_STYLE={
         "width":"100%",
         "height":"100%",
         "border_radius":"50%",
-        "background":f"linear-gradient(25deg,{Color.BUTTON.value} 50%,  {Color.SECONDARY.value} 100%)",
+        # "background":f"linear-gradient(45deg,{Color.BUTTON.value} 20%,  {Color.SECONDARY.value} 100%)",
     }
 }
 
@@ -68,6 +68,17 @@ font_vertical_style=dict(
     color=TextColor.ACCENT.value,
     writing_mode= "vertical-lr",
 )
+font_vertical_button_style=dict(
+    font_family=Font.BUTTON.value,
+    font_size=Size.MEDIUM.value,
+    color=TextColor.SECONDARY.value,
+    writing_mode= "vertical-lr",
+)
+font_horizontal_button_style=dict(
+    font_family=Font.BUTTON.value,
+    font_size=Size.MEDIUM.value,
+    color=TextColor.SECONDARY.value,
+)
 font_button_style=dict(
     font_family=Font.BUTTON.value,
     font_size=Size.MEDIUM.value,
@@ -77,4 +88,9 @@ font_accent_style=dict(
     font_family=Font.DEFAULT.value,
     font_size=Size.DEFAULT.value,
     color=TextColor.ACCENT.value,
+)
+
+align_style_center=dict(
+    align_content="center",
+    text_align="center",
 )

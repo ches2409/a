@@ -1,6 +1,8 @@
 import reflex as rx
 
 import arkadex.styles.styles as styles
+from arkadex.components.button import button_round
+from arkadex.components.button_square import button_square
 from arkadex.styles.colors import Color
 
 from arkadex.styles.fonts import Font
@@ -48,28 +50,38 @@ def header()->rx.Component:
             rx.grid(
 
                 rx.box(
-                    rx.button(
-                        "a",
-                        height="4rem",
+                    rx.vstack(
+                        rx.text(
+                            "Ver equipos",
+                            style=styles.font_vertical_button_style,
+                        ),
+                        button_round(
+                            "gamepad-modern",
+                        ),
+                        align="center"
+
                     ),
-                    align_content="center",
-                    width="4rem",
-                    height="100%",
                     grid_column="1/3",
-                    grid_row="7",
-                    # bg="green",
+                    grid_row="5/8",
+                    # bg="darkgreen",
+                    z_index="100",
                 ),
                 rx.box(
-                    rx.button(
-                        "b",
-                        height="4rem",
+                    rx.vstack(
+                        button_round(
+                            "alien-8bit"
+                        ),
+                        rx.text(
+                            "Ver partidas",
+                            style=styles.font_vertical_button_style,
+                        ),
+                        align="center"
                     ),
-                    align_content="center",
-                    width="4rem",
-                    height="100%",
+
                     grid_column="2/4",
-                    grid_row="6",
-                    #bg="green",
+                    grid_row="6/9",
+                    # bg="green",
+                    z_index="99",
                 ),
                 rx.vstack(
                     rx.text(
@@ -94,28 +106,51 @@ def header()->rx.Component:
                     # bg="green",
                 ),
                 rx.box(
-                    rx.button(
-                        "1",
-                        height="4rem",
+                    rx.vstack(
+                        rx.box(
+                            rx.text(
+                                "Regístrate",
+                                style=styles.font_horizontal_button_style,
+                                align="right",
+                            ),
+                            margin="0 0 0 -5em",
+                            width="100%",
+                            # bg="orange"
+                        ),
+                        button_square(
+                            "user-plus",
+                        ),
+
+
                     ),
-                    align_content="center",
-                    width="4rem",
-                    height="100%",
+                    style=styles.align_style_center,
                     grid_column="13/15",
-                    grid_row="5/7",
-#                     bg="green",
+                    grid_row="4/6",
+                    # bg="darkgreen",
                 ),
                 rx.box(
-                    rx.button(
-                        "2",
-                        height="4rem",
+                    rx.vstack(
+                        button_square(
+                            "chart-simple",
+                        ),
+                        rx.box(
+                            rx.text(
+                                "Infórmate",
+                                style=styles.font_horizontal_button_style,
+                                align="right",
+                            ),
+
+                            margin="0 0 0 -5em",
+                            width="100%",
+                            # bg="orange"
+                        ),
+                        # spacing="2",
                     ),
-                    align_content="center",
-                    width="4rem",
-                    height="100%",
+                    # width="4rem",
+                    # height="100%",
                     grid_column="15/17",
                     grid_row="5/7",
-                  # bg="green",
+                    # bg="green",
                 ),
 
                 background_image="url(bag1.png)",
