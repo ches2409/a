@@ -1,10 +1,6 @@
 import reflex as rx
-from pygments.styles.dracula import background
 
 from arkadex.styles import styles
-
-from arkadex.views.header import header
-from arkadex.views.about import about
 from arkadex.views.hero import hero
 
 
@@ -15,12 +11,12 @@ class State(rx.State):
 
 
 def index() -> rx.Component:
-    return rx.vstack(
+    return rx.box(
         hero(),
-        # background_image="url(logoVertical.png)",
-        # background_repeat="no-repeat",
-        # background_size="auto 100%",
-        # background_position="center",
+        background_image="url(bg_body.png)",
+        background_repeat="no-repeat",
+        background_size="60% 100%",
+        background_position="50% 10%",
         width="100%",
         # height="100vh",
     )

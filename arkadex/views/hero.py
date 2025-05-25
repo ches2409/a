@@ -1,6 +1,7 @@
 import reflex as rx
 
-from arkadex.components.button import button_round
+from arkadex.components.button import button_rounded
+from arkadex.components.button_action import button_action
 from arkadex.components.navbar import navbar
 from arkadex.styles import styles
 from arkadex.styles.styles import MAX_HEIGHT
@@ -38,11 +39,66 @@ def hero()->rx.Component:
                 # bg="purple",
                 z_index="100",
             ),
-            rx.container(
+            rx.box(
                 rx.grid(
-                    # gcolumns="8",
-                    # rows="8",
-                    bg="grey",
+                    rx.hstack(
+                        rx.spacer(),
+                        rx.vstack(
+                            rx.text(
+                                "Únete",
+                                style=styles.font_horizontal_button_style,
+                                font_size="2.5em",
+                            ),
+                            rx.text(
+                                "a la arena",
+                                style=styles.font_horizontal_button_style,
+                            ),
+                            spacing="0",
+                            align_items="end",
+                            justify="center",
+                            height="100%",
+                            # bg="yellow"
+                        ),
+                        rx.vstack(
+                            button_action("play",
+                                          "png"
+                            ),
+                            justify="center",
+                            height="100%",
+                            # bg="orange"
+                        ),
+
+                        grid_column="9/12",
+                        grid_row="2/5",
+                        # bg="pink",
+                        z_index="100",
+                    ),
+                    rx.vstack(
+                        rx.text(
+                            "Entra",
+                            style=styles.font_body_style,
+                            # bg="blue"
+                        ),
+                        rx.text(
+                            "DESATA TU ESENCIA",
+                            style=styles.font_body_style,
+                            font_size=styles.Size.XBIG.value,
+                            # bg="blue"
+                        ),
+                        rx.text(
+                            "Domina sin piedad",
+                            style=styles.font_body_style,
+                            # bg="blue"
+                        ),
+                        justify="center",
+                        grid_column="4/9",
+                        grid_row="5/12",
+                        # bg="violet",
+                        z_index="100",
+                    ),
+                    columns="12",
+                    rows="12",
+                    # bg="grey",
                     width="100%",
                     height="100%",
 
@@ -59,8 +115,9 @@ def hero()->rx.Component:
             rx.hstack(
                 rx.box(
                     rx.vstack(
-                        button_round(
+                        button_rounded(
                             "gamepad-modern",
+                            "svg"
                         ),
                         rx.text(
                             "Ver equipos",
@@ -75,8 +132,9 @@ def hero()->rx.Component:
                 rx.spacer(),
                 rx.box(
                     rx.vstack(
-                        button_round(
-                            "alien-8bit"
+                        button_rounded(
+                            "alien-8bit",
+                            "svg"
                         ),
                         rx.text(
                             "Ver partidas",

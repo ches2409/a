@@ -2,7 +2,7 @@ import reflex as rx
 
 import arkadex.styles.styles as styles
 from arkadex.components.button import button_round
-from arkadex.components.button_square import button_square
+from arkadex.components.button_action import button_square
 from arkadex.styles.colors import Color
 
 from arkadex.styles.fonts import Font
@@ -57,6 +57,7 @@ def header()->rx.Component:
                         ),
                         button_round(
                             "gamepad-modern",
+                            "svg"
                         ),
                         align="center"
                     ),
@@ -68,7 +69,8 @@ def header()->rx.Component:
                 rx.box(
                     rx.vstack(
                         button_round(
-                            "alien-8bit"
+                            "alien-8bit",
+                            "svg"
                         ),
                         rx.text(
                             "Ver partidas",
