@@ -59,7 +59,6 @@ def header()->rx.Component:
                             "gamepad-modern",
                         ),
                         align="center"
-
                     ),
                     grid_column="1/3",
                     grid_row="5/8",
@@ -77,7 +76,6 @@ def header()->rx.Component:
                         ),
                         align="center"
                     ),
-
                     grid_column="2/4",
                     grid_row="6/9",
                     # bg="green",
@@ -153,10 +151,10 @@ def header()->rx.Component:
                     # bg="green",
                 ),
 
-                background_image="url(bag1.png)",
-                background_repeat="no-repeat",
-                background_size="100% 100%",
-                background_position="center",
+                # background_image="url(bag1.png)",
+                # background_repeat="no-repeat",
+                # background_size="100% 100%",
+                # background_position="center",
 
                 grid_column="5/-1",
                 grid_row="2/15",

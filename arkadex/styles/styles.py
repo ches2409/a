@@ -79,11 +79,6 @@ font_horizontal_button_style=dict(
     font_size=Size.MEDIUM.value,
     color=TextColor.SECONDARY.value,
 )
-font_button_style=dict(
-    font_family=Font.BUTTON.value,
-    font_size=Size.MEDIUM.value,
-    color=TextColor.SECONDARY.value,
-)
 font_accent_style=dict(
     font_family=Font.DEFAULT.value,
     font_size=Size.DEFAULT.value,

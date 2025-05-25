@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="botones, inicio de config">
-      <change afterPath="$PROJECT_DIR$/arkadex/components/button_square.py" afterDir="false" />
+    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="botones, estilizado">
+      <change afterPath="$PROJECT_DIR$/arkadex/components/navbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arkadex/views/hero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/components/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/arkadex.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/arkadex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/styles/styles.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/styles/styles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/views/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/about.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/views/header.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/header.py" afterDir="false" />
@@ -93,7 +94,7 @@
       <workItem from="1748014523973" duration="10073000" />
       <workItem from="1748076620900" duration="8587000" />
       <workItem from="1748105696622" duration="3740000" />
-      <workItem from="1748165530184" duration="8343000" />
+      <workItem from="1748165530184" duration="11619000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -143,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748085223867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="botones, estilizado">
+      <option name="closed" value="true" />
+      <created>1748174864695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748174864695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +175,7 @@
     <MESSAGE value="fuentes actualizadas" />
     <MESSAGE value="agrega about-section, configuracion inicial" />
     <MESSAGE value="botones, inicio de config" />
-    <option name="LAST_COMMIT_MESSAGE" value="botones, inicio de config" />
+    <MESSAGE value="botones, estilizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="botones, estilizado" />
   </component>
 </project>

@@ -102,7 +102,7 @@ def about()->rx.Component:
             rx.flex(
                 rx.text(
                     "Despierta tu leyenda",
-                    style=styles.font_button_style,
+                    style=styles.font_horizontal_button_style,
                 ),
                 justify_content="center",
                 direction="column",

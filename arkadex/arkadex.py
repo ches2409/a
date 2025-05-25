@@ -5,6 +5,7 @@ from arkadex.styles import styles
 
 from arkadex.views.header import header
 from arkadex.views.about import about
+from arkadex.views.hero import hero
 
 
 class State(rx.State):
@@ -15,8 +16,7 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.vstack(
-        header(),
-        about(),
+        hero(),
         # background_image="url(logoVertical.png)",
         # background_repeat="no-repeat",
         # background_size="auto 100%",
