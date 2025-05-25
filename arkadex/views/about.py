@@ -1,6 +1,6 @@
 import reflex as rx
 
-from arkadex.components.button import button_round
+from arkadex.components.button import button_rounded
 from arkadex.styles import styles
 from arkadex.styles.styles import MAX_WIDTH
 
@@ -90,8 +90,9 @@ def about()->rx.Component:
         ),
         rx.hstack(
             rx.box(
-                button_round(
-                    "user-bounty-hunter"
+                button_rounded(
+                    "user-bounty-hunter",
+                    "svg"
                 ),
                 # wiodth=styles.Size.BIG.value,
                 align_content="center",
