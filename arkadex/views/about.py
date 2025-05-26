@@ -7,6 +7,16 @@ from arkadex.styles.styles import MAX_WIDTH
 
 def about()->rx.Component:
     return rx.grid(
+        rx.flex(
+            rx.text(
+                "Somos Kódigo, Kaos y Kontrol",
+                style=styles.font_heading_style,
+            ),
+            grid_column="5/13",
+            grid_row="1/3",
+            # bg="purple",
+            z_index="100",
+        ),
         rx.vstack(
             rx.vstack(
 
@@ -80,6 +90,7 @@ def about()->rx.Component:
                     align="center",
                     # bg="violet"
                 ),
+                margin_top="1.5rem",
                 # bg="red",
                 width="100%",
 
@@ -115,9 +126,9 @@ def about()->rx.Component:
                 direction="column",
                 height="100%",
             ),
-            grid_column="7/13",
-            grid_row="7/9",
-            bg="purple",
+            grid_column="8/13",
+            grid_row="8/10",
+            # bg="purple",
             z_index="100",
         ),
         rx.flex(
@@ -125,15 +136,15 @@ def about()->rx.Component:
                 "Kódigo cargado. Kaos aceptado. Kontrol ejecutado",
                 style=styles.font_vertical_style,
             ),
-            grid_column="13/19",
+            grid_column="12/19",
             grid_row="1/11",
-            bg="orange",
+            # bg="orange",
             z_index="100",
         ),
 
         columns="20",
         rows="10",
-        bg="grey",
+        # bg="grey",
         width="100%",
         height="60vh",
     )

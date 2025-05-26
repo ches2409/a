@@ -57,6 +57,11 @@ font_subtitle_style=dict(
     font_size=Size.LARGE.value,
     color=TextColor.TITLE.value,
 )
+font_heading_style=dict(
+    font_family=Font.SUBTITLE.value,
+    font_size=Size.DOUBLE.value,
+    color=TextColor.TITLE.value,
+)
 font_body_style=dict(
     font_family=Font.BODY.value,
     font_size=Size.LARGE.value,
