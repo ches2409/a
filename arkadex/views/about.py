@@ -61,6 +61,7 @@ def about()->rx.Component:
                         "Somos ArkadeX",
                         style=styles.font_subtitle_style,
                         align_self="end",
+                        margin_right="3rem",
                         # bg="violet"
                     ),
                     width="100%",
@@ -83,7 +84,12 @@ def about()->rx.Component:
                 width="100%",
 
             ),
-            grid_column="1/11",
+            background_image="url(bg_about.png)",
+            background_repeat="no-repeat",
+            background_size="100% 100%",
+            background_position="center",
+            # width="100%",
+            grid_column="1/12",
             grid_row="2/9",
             # bg="green",
             z_index="99"
@@ -111,7 +117,7 @@ def about()->rx.Component:
             ),
             grid_column="7/13",
             grid_row="7/9",
-            # bg="purple",
+            bg="purple",
             z_index="100",
         ),
         rx.flex(
@@ -121,13 +127,13 @@ def about()->rx.Component:
             ),
             grid_column="13/19",
             grid_row="1/11",
-            # bg="orange",
+            bg="orange",
             z_index="100",
         ),
 
         columns="20",
         rows="10",
-        # bg="grey",
+        bg="grey",
         width="100%",
         height="60vh",
     )

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="hero-PC v2 finalizado">
+    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="about V2 - layout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/views/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/about.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,8 @@
       <workItem from="1748076620900" duration="8587000" />
       <workItem from="1748105696622" duration="3740000" />
       <workItem from="1748165530184" duration="14847000" />
-      <workItem from="1748211364895" duration="4940000" />
+      <workItem from="1748211364895" duration="5440000" />
+      <workItem from="1748254821656" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -171,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748216316928</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="about V2 - layout">
+      <option name="closed" value="true" />
+      <created>1748216676444</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748216676444</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +208,7 @@
     <MESSAGE value="grid_layout - nueva seccion &quot;Hero&quot;" />
     <MESSAGE value="grid_layout - hero actualizado" />
     <MESSAGE value="hero-PC v2 finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="hero-PC v2 finalizado" />
+    <MESSAGE value="about V2 - layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="about V2 - layout" />
   </component>
 </project>
