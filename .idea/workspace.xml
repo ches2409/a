@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="about V2 - layout, definicion de grid nueva">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/styles/styles.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/styles/styles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/views/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/about.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/arkadex.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/arkadex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/components/navbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/navbar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/views/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/hero.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,8 @@
       <workItem from="1748165530184" duration="14847000" />
       <workItem from="1748211364895" duration="5440000" />
       <workItem from="1748254821656" duration="779000" />
-      <workItem from="1748257036338" duration="906000" />
+      <workItem from="1748257036338" duration="1279000" />
+      <workItem from="1748274865254" duration="10047000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -191,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748255437888</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="about V2 - layout, definicion de grid nueva">
+      <option name="closed" value="true" />
+      <created>1748258310001</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748258310001</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

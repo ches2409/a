@@ -13,8 +13,16 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.box(
-        hero(),
-        about(),
+        rx.box(
+
+            hero(),
+            about(),
+            # background_image="url(jinx.png)",
+            # background_repeat="no-repeat",
+            # background_size="60% 80%",
+            # background_position="50% 40%",
+            width="100%",
+        ),
         background_image="url(bg_body.png)",
         background_repeat="no-repeat",
         background_size="60% 80%",

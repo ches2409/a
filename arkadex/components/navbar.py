@@ -5,7 +5,7 @@ from arkadex.styles import styles
 
 def navbar()->rx.Component:
     return rx.vstack(
-        rx.spacer(),
+        # rx.spacer(),
         rx.text(
             "Where legends rise",
             style=styles.font_title_style,
@@ -31,9 +31,10 @@ def navbar()->rx.Component:
             spacing="8",
             # bg="orange",
             align="end",
-            width="70%",
+            width="65%",
         ),
         # bg="blue",
+        spacing="1",
         width="100%",
         height="100%",
     )

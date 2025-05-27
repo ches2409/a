@@ -22,9 +22,10 @@ def hero()->rx.Component:
         rx.grid(
             rx.box(
                 navbar(),
+                margin_top="-1.5em",
                 grid_column="1/14",
-                grid_row="1/4",
-                # bg="orange",
+                grid_row="2/4",
+                # bg="red",
                 z_index="100",
             ),
             rx.flex(
@@ -36,43 +37,46 @@ def hero()->rx.Component:
                 justify="end",
                 grid_column="1/2",
                 grid_row="4/-1",
-                # bg="purple",
+                # bg="blue",
                 z_index="100",
             ),
-            rx.box(
-                rx.grid(
-                    rx.hstack(
-                        rx.spacer(),
-                        rx.vstack(
-                            rx.text(
-                                "Únete",
-                                style=styles.font_horizontal_button_style,
-                                font_size="2.5em",
-                            ),
-                            rx.text(
-                                "a la arena",
-                                style=styles.font_horizontal_button_style,
-                            ),
-                            spacing="0",
-                            align_items="end",
-                            justify="center",
-                            height="100%",
-                            # bg="yellow"
+            rx.vstack(
+                rx.hstack(
+                    rx.vstack(
+                        rx.text(
+                            "Únete",
+                            style=styles.font_horizontal_button_style,
+                            font_size="2.5em",
                         ),
-                        rx.vstack(
-                            button_action("play",
-                                          "png"
-                            ),
-                            justify="center",
-                            height="100%",
-                            # bg="orange"
+                        rx.text(
+                            "a la arena",
+                            style=styles.font_horizontal_button_style,
                         ),
+                        spacing="0",
+                        align_items="end",
+                        justify="center",
+                        height="100%",
+                        width="85%",
+                        # bg="yellow"
 
-                        grid_column="9/12",
-                        grid_row="2/5",
-                        # bg="pink",
-                        z_index="100",
                     ),
+                    rx.vstack(
+                        button_action(
+                            "play",
+                            "png"
+                        ),
+                        justify="center",
+                        height="100%",
+                        width="15%",
+                        # bg="orange"
+
+                    ),
+                    padding_top="1.5em",
+                    height="25%",
+                    width="100%",
+                    # bg="darkgreen",
+                ),
+                rx.hstack(
                     rx.vstack(
                         rx.text(
                             "Entra",
@@ -90,73 +94,70 @@ def hero()->rx.Component:
                             style=styles.font_body_style,
                             # bg="blue"
                         ),
+                        padding_left="5%",
                         justify="center",
-                        grid_column="4/9",
-                        grid_row="5/12",
-                        # bg="violet",
                         z_index="100",
-                    ),
-                    columns="12",
-                    rows="12",
-                    # bg="grey",
-                    width="100%",
-                    height="100%",
 
+                        height="100%",
+                        width="70%",
+                        # bg="pink",
+                    ),
+                    rx.hstack(
+                        rx.spacer(),
+                        rx.box(
+                            rx.vstack(
+                                button_rounded(
+                                    "gamepad-modern",
+                                    "svg"
+                                ),
+                                rx.text(
+                                    "Ver equipos",
+                                    style=styles.font_vertical_button_style,
+                                ),
+                                align="center"
+                            ),
+                            # bg="darkgreen",
+                        ),
+                        # rx.spacer(),
+                        rx.box(
+                            rx.vstack(
+                                button_rounded(
+                                    "alien-8bit",
+                                    "svg"
+                                ),
+                                rx.text(
+                                    "Ver partidas",
+                                    style=styles.font_vertical_button_style,
+                                ),
+                                align="center"
+                            ),
+                            # bg="green",
+                        ),
+                        rx.spacer(),
+                        spacing="6",
+                        align="center",
+
+
+                        height="100%",
+                        width="30%",
+                        # bg="blue",
+                    ),
+                    spacing="1",
+                    height="75%",
+                    width="100%",
+                    # bg="darkorange",
                 ),
+
                 background_image="url(bg_container.png)",
                 background_repeat="no-repeat",
-                background_size="80% 100%",
+                background_size="100% 100%",
                 background_position="right",
-                grid_column="2/-1",
-                grid_row="2/14",
-                # bg="cadetblue",
+
+                spacing="1",
+                grid_column="4/-1",
+                grid_row="2/13",
+                # bg="green",
                 z_index="99",
-            ),
-            rx.hstack(
-                rx.box(
-                    rx.vstack(
-                        button_rounded(
-                            "gamepad-modern",
-                            "svg"
-                        ),
-                        rx.text(
-                            "Ver equipos",
-                            style=styles.font_vertical_button_style,
-                        ),
-
-                        align="center"
-                    ),
-                    # bg="darkgreen",
-                    z_index="100",
-                ),
-                rx.spacer(),
-                rx.box(
-                    rx.vstack(
-                        button_rounded(
-                            "alien-8bit",
-                            "svg"
-                        ),
-                        rx.text(
-                            "Ver partidas",
-                            style=styles.font_vertical_button_style,
-                        ),
-                        align="center"
-                    ),
-                    # bg="green",
-                    z_index="99",
-                ),
-                grid_column="14/16",
-                grid_row="8/14",
-                # bg="darkgreen",
-                z_index="100",
-
-
-            ),
-            rx.flex(
-                grid_column="2/-1",
-                grid_row="14/-1",
-                # bg="orchid",
-                z_index="100",
             ),
             columns="16",
             rows="16",
