@@ -3,6 +3,7 @@ import reflex as rx
 from arkadex.styles import styles
 from arkadex.views.about import about
 from arkadex.views.hero import hero
+from arkadex.views.teams import teams
 
 
 class State(rx.State):
@@ -13,22 +14,14 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.box(
-        rx.box(
-
-            hero(),
-            about(),
-            # background_image="url(jinx.png)",
-            # background_repeat="no-repeat",
-            # background_size="60% 80%",
-            # background_position="50% 40%",
-            width="100%",
-        ),
-        background_image="url(bg_body.png)",
-        background_repeat="no-repeat",
-        background_size="60% 80%",
-        background_position="50% 40%",
+        hero(),
+        about(),
+        teams(),
+        # background_image="url(bg_body.png)",
+        # background_repeat="no-repeat",
+        # background_size="60% 80%",
+        # background_position="50% 40%",
         width="100%",
-        # height="100vh",
     )
 
 

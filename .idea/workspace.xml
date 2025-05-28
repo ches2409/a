@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="about V2 - layout, definicion de grid nueva">
+    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="Actualizacion layout hero">
+      <change afterPath="$PROJECT_DIR$/arkadex/views/teams.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/arkadex.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/arkadex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/components/navbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/navbar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/components/button_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/button_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/views/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/about.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/views/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg_about.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,9 @@
       <workItem from="1748211364895" duration="5440000" />
       <workItem from="1748254821656" duration="779000" />
       <workItem from="1748257036338" duration="1279000" />
-      <workItem from="1748274865254" duration="10047000" />
+      <workItem from="1748274865254" duration="10573000" />
+      <workItem from="1748339445935" duration="9522000" />
+      <workItem from="1748432561175" duration="6663000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -201,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748258310001</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Actualizacion layout hero">
+      <option name="closed" value="true" />
+      <created>1748304298107</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748304298107</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +243,7 @@
     <MESSAGE value="hero-PC v2 finalizado" />
     <MESSAGE value="about V2 - layout" />
     <MESSAGE value="about V2 - layout, definicion de grid nueva" />
-    <option name="LAST_COMMIT_MESSAGE" value="about V2 - layout, definicion de grid nueva" />
+    <MESSAGE value="Actualizacion layout hero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion layout hero" />
   </component>
 </project>

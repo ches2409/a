@@ -12,7 +12,7 @@ def hero()->rx.Component:
         rx.container(
             rx.image(
                 src="logoVertical.png",
-                width="20vh",
+                width="23vh",
                 margin_top="5vh",
             ),
             # bg="red",
@@ -135,7 +135,8 @@ def hero()->rx.Component:
                         ),
                         rx.spacer(),
                         spacing="6",
-                        align="center",
+                        padding_top="15%",
+                        # align="center",
 
 
                         height="100%",
