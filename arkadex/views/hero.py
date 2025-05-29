@@ -171,7 +171,6 @@ def hero()->rx.Component:
             width="5vw",
             height="100%",
         ),
-
         # bg="violet",
         spacing="1",
         width="100%",

@@ -26,9 +26,11 @@ def about()->rx.Component:
 
                         rx.text(
                             "No somos casuales. No vinimos aprobar",
+                            style=styles.font_default_style,
                         ),
                         rx.text(
                             "Vinimos a escribir nuestro nombre en los codigos del juego.",
+                            style=styles.font_default_style,
                         ),
                         rx.text(
                             "somos ",
@@ -38,6 +40,7 @@ def about()->rx.Component:
                                 style=styles.font_accent_style
                             ),
                             ": pensamos como estrategas, leemos el meta y creamos el nuestro.",
+                            style=styles.font_default_style,
                             as_="span",
 
                         ),
@@ -49,6 +52,7 @@ def about()->rx.Component:
                                 style=styles.font_accent_style
                             ),
                             ": impredecibles, agresivos, imposibles de replicar.",
+                            style=styles.font_default_style,
                             as_="span",
 
                         ),
@@ -60,6 +64,7 @@ def about()->rx.Component:
                                 style=styles.font_accent_style
                             ),
                             ": ejecutamos con precisión milimétrica y mentalidad de campeón.",
+                            style=styles.font_default_style,
                             as_="span",
 
                         ),
@@ -83,13 +88,16 @@ def about()->rx.Component:
                     rx.vstack(
 
                         rx.text(
-                            "No importa como entres."
+                            "No importa como entres.",
+                            style=styles.font_default_style,
                         ),
                         rx.text(
-                            "Importa como juegas."
+                            "Importa como juegas.",
+                            style=styles.font_default_style,
                         ),
                         rx.text(
-                            "Y en Arkadex se juega para Dominar."
+                            "Y en Arkadex se juega para Dominar.",
+                            style=styles.font_default_style,
                         ),
                         width="50%",
                         align="center",
