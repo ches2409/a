@@ -3,6 +3,7 @@ import reflex as rx
 from arkadex.styles import styles
 from arkadex.views.about import about
 from arkadex.views.hero import hero
+from arkadex.views.subscribe import subscribe
 from arkadex.views.teams import teams
 
 
@@ -23,6 +24,7 @@ def index() -> rx.Component:
             background_position="50% 10%",
         ),
         teams(),
+        subscribe(),
 
         width="100%",
     )

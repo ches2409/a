@@ -1,5 +1,7 @@
 import reflex as rx
+from reflex import button
 
+from arkadex.components.button import button_rounded
 from arkadex.styles import styles
 from arkadex.styles.colors import TextColor
 from arkadex.styles.styles import Size
@@ -102,6 +104,17 @@ def card_team(
         height="50%",
         width="50%",
         #                     bg="green"
+    ),
+    rx.vstack(
+        button_rounded(
+            "swords",
+            "svg"
+        ),
+        rx.text(
+            "Únete",
+            style=styles.font_vertical_button_style,
+        ),
+        align="center"
     ),
     spacing="3",
     # height="100%",

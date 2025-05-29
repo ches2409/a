@@ -2,8 +2,6 @@ import reflex as rx
 
 from arkadex.components.card_team import card_team
 from arkadex.styles import styles
-from arkadex.styles.colors import TextColor
-from arkadex.styles.styles import MAX_HEIGHT, Size
 
 
 def teams()->rx.Component:
@@ -151,7 +149,7 @@ def teams()->rx.Component:
                 "Cazan rápido. Caen tarde. Huyen nunca.",
             ),
             flex_wrap="wrap",
-            height="50%",
+            height="80%",
             width="100%",
             # bg="cyan",
 
@@ -164,6 +162,6 @@ def teams()->rx.Component:
         # background_origin="center",
         spacing="1",
         # bg="lightgreen",
-        height="150vh",
+        height="200vh",
         width="100%",
     )
