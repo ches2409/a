@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="Actualizacion layout hero">
-      <change afterPath="$PROJECT_DIR$/arkadex/views/teams.py" afterDir="false" />
+    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="layout - teams section">
+      <change afterPath="$PROJECT_DIR$/arkadex/components/card_team.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/arkadex.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/arkadex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/components/button_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/button_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/views/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/about.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/views/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/hero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bg_about.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg_about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/styles/styles.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/styles/styles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/views/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/teams.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -100,7 +97,12 @@
       <workItem from="1748257036338" duration="1279000" />
       <workItem from="1748274865254" duration="10573000" />
       <workItem from="1748339445935" duration="9522000" />
-      <workItem from="1748432561175" duration="6663000" />
+      <workItem from="1748432561175" duration="6816000" />
+      <workItem from="1748543256578" duration="1116000" />
+      <workItem from="1748544399480" duration="502000" />
+      <workItem from="1748544918950" duration="915000" />
+      <workItem from="1748546820970" duration="61000" />
+      <workItem from="1748546932128" duration="10085000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -214,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748304298107</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="layout - teams section">
+      <option name="closed" value="true" />
+      <created>1748465893513</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748465893513</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +254,7 @@
     <MESSAGE value="about V2 - layout" />
     <MESSAGE value="about V2 - layout, definicion de grid nueva" />
     <MESSAGE value="Actualizacion layout hero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion layout hero" />
+    <MESSAGE value="layout - teams section" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout - teams section" />
   </component>
 </project>

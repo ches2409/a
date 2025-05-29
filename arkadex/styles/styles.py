@@ -1,4 +1,3 @@
-from tkinter.constants import VERTICAL
 
 import reflex as rx
 
@@ -72,6 +71,11 @@ font_vertical_style=dict(
     font_size=Size.MEDIUM.value,
     color=TextColor.ACCENT.value,
     writing_mode= "vertical-lr",
+)
+font_default_style=dict(
+    font_family=Font.DEFAULT.value,
+    font_size=Size.DEFAULT.value,
+    color=TextColor.PRIMARY.value,
 )
 font_vertical_button_style=dict(
     font_family=Font.BUTTON.value,
