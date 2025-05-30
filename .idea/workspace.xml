@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="actualizacion, card_team">
+    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="actualizacion, card_team con botones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/components/card_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/card_team.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arkadex/views/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/teams.py" afterDir="false" />
@@ -101,7 +101,8 @@
       <workItem from="1748544399480" duration="502000" />
       <workItem from="1748544918950" duration="915000" />
       <workItem from="1748546820970" duration="61000" />
-      <workItem from="1748546932128" duration="17056000" />
+      <workItem from="1748546932128" duration="17372000" />
+      <workItem from="1748598833455" duration="1893000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -247,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748562779982</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="actualizacion, card_team con botones">
+      <option name="closed" value="true" />
+      <created>1748566241533</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748566241533</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +290,7 @@
     <MESSAGE value="teams section - layout terminado" />
     <MESSAGE value="actualizacion, bg_general y funetes" />
     <MESSAGE value="actualizacion, card_team" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizacion, card_team" />
+    <MESSAGE value="actualizacion, card_team con botones" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion, card_team con botones" />
   </component>
 </project>

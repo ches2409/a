@@ -15,23 +15,22 @@ def card_team(
         gaming_style_2:str,
         gaming_style_3:str,
 )->rx.Component:
-    return rx.vstack(
-        rx.hstack(
+    return rx.hstack(
+
             rx.flex(
                 rx.image(
                     src=f"{image}.png",
                     # max_height="none",
-                    height="100%",
+                    height="auto",
                     width="100%",
                     object_fit="contain",
                     object_position="right top",
 
-                ),
-                # align_content="flex-start",
-                # justify_content="flex-start",
+                ),align="start",
+                justify="end",
                 position="realative",
-                height="35em",
-                width="35%",
+                height="25em",
+                width="40%",
                 # bg="red"
             ),
             rx.vstack(
@@ -47,7 +46,7 @@ def card_team(
                     justify="center",
                     # bg="orange",
                     width="100%",
-                    height="100%",
+                    height="20%",
                 ),
                 rx.flex(
                     rx.text(
@@ -61,7 +60,7 @@ def card_team(
                     align="center",
                     # bg="pink",
                     width="100%",
-                    height="100%",
+                    height="50%",
                 ),
                 rx.vstack(
                     rx.flex(
@@ -104,34 +103,18 @@ def card_team(
                         height="100%",
                     ),
                     spacing="1",
-                    height="100%",
+                    height="30%",
                     width="100%",
-                    #                         bg="olive"
+                    # bg="olive"
                 ),
-                height="100%",
-                width="60%",
+                spacing="1",
+                height="25em",
+                width="100%",
                 # bg="green"
             ),
 
-        ),
-    
-        rx.flex(
-            rx.text(
-                "Dark plays. Sharp minds.",
-                margin_right="2em",
-            ),
-            button_rounded(
-                "swords",
-                "svg"
-            ),
-            align="center",
-            justify="end",
-            height="4em",
-            width="96%",
-            # bg="violet",
-        ),
-        spacing="3",
-        # height="100%",
-        width="45%",
+        spacing="2",
+        height="50vh",
+        width="40%",
         # bg="violet",
     )

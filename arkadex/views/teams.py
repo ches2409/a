@@ -149,7 +149,8 @@ def teams()->rx.Component:
                 "Cazan rápido. Caen tarde. Huyen nunca.",
             ),
             flex_wrap="wrap",
-            height="80%",
+            justify_content="space-around",
+            height="50%",
             width="100%",
             # bg="cyan",
 
