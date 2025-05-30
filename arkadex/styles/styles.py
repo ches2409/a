@@ -38,12 +38,12 @@ BASE_STYLE={
 
     "background_color": Color.PRIMARY.value,
 
-    rx.button:{
-        "width":"100%",
-        "height":"100%",
-        "border_radius":"50%",
-        # "background":f"linear-gradient(45deg,{Color.BUTTON.value} 20%,  {Color.SECONDARY.value} 100%)",
-    }
+    # rx.button:{
+    #     "width":"100%",
+    #     "height":"100%",
+    #     "border_radius":"50%",
+    #     # "background":f"linear-gradient(45deg,{Color.BUTTON.value} 20%,  {Color.SECONDARY.value} 100%)",
+    # }
 }
 
 font_title_style=dict(

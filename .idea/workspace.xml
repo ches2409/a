@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="actualizacion, card_team con botones">
+    <list default="true" id="35993153-3740-477f-9a65-55861d2752ca" name="Changes" comment="actualizacion, card_team sin botones">
+      <change afterPath="$PROJECT_DIR$/arkadex/views/footer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/components/card_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/components/card_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkadex/views/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/arkadex.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/arkadex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/styles/styles.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/styles/styles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkadex/views/subscribe.py" beforeDir="false" afterPath="$PROJECT_DIR$/arkadex/views/subscribe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,7 @@
       <workItem from="1748544918950" duration="915000" />
       <workItem from="1748546820970" duration="61000" />
       <workItem from="1748546932128" duration="17372000" />
-      <workItem from="1748598833455" duration="1893000" />
+      <workItem from="1748598833455" duration="7987000" />
     </task>
     <task id="LOCAL-00001" summary="Carga Inicial de archivos">
       <option name="closed" value="true" />
@@ -256,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748566241533</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="actualizacion, card_team sin botones">
+      <option name="closed" value="true" />
+      <created>1748601052846</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1748601052846</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +301,7 @@
     <MESSAGE value="actualizacion, bg_general y funetes" />
     <MESSAGE value="actualizacion, card_team" />
     <MESSAGE value="actualizacion, card_team con botones" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizacion, card_team con botones" />
+    <MESSAGE value="actualizacion, card_team sin botones" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion, card_team sin botones" />
   </component>
 </project>
